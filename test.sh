@@ -36,6 +36,7 @@ assert() {
 assert 0 0
 assert 42 42
 assert 4 '1-2+5'
-assert 4 ' 1 -- 2 + 5 '
+assert 4 ' 1 - 2 + 5 '
+assert 17 '1-8/(2+2)+3*6'
 # 如果运行正常未提前退出，程序将显示OK
 echo OK
