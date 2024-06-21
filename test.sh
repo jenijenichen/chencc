@@ -75,7 +75,7 @@ assert 0 '{ return 6==4+3; }'
 assert 1 '{ return 0*9+5*2==4+4*(6/3)-2; }'
 
 # [9] 支持;分割语句
-assert 3 '{ 1; 2;return 3; }'
+assert 3 '{ 1; 2; return 3; }'
 assert 12 '{ 12+23;12+99/3;return 78-66; }'
 
 # [10] 支持单字母变量
